@@ -1,0 +1,82 @@
+*{
+    font-family:"Roboto";
+}
+
+
+.booking-container{
+    border:2px solid white;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:20px;
+    padding:20px;
+    /* border-top-left-radius: 25px; */
+    /* border-bottom-right-radius: 25px; */
+    /* background-color:#bfe7f5; */
+    border-radius:20px;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items:center; */
+    /* margin:10px; */
+    background-image: url('https://res.cloudinary.com/dmdr9a99a/image/upload/v1690100668/flight_ysyxbx.avif');
+     background-size: cover;
+     height:100vh;
+}
+.input-class{
+    width:200px;
+    height:30px;
+    background: transparent;
+    border:none;
+    border-bottom:2px solid white;
+    color:white;
+    font-size:25px;
+
+}
+.label-name{
+    color:white;
+    font-family: "Roboto";
+    font-size:25px;
+    padding:10px;
+}
+.search-button{
+    width:150px;
+    height:30px;
+    border-radius:15px;
+    color:white;
+    background:transparent;
+    border:1px solid white;
+    margin-left:10px;
+    font-size:20px;
+
+    /* padding:15px; */
+}
+..dropdown {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+  }
+  
+  .dropdown:empty {
+    border: none;
+  }
+  
+  .dropdown-row {
+    cursor: pointer;
+    text-align: start;
+    margin: 2px 0;
+    color:white;
+    font-size:19px;
+  }
+  .from-class{
+    display: flex;
+    flex-direction: column;
+  }
+  .to-class{
+    display: flex;
+    flex-direction: column;
+  }

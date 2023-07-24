@@ -1,0 +1,16 @@
+
+*{
+    font-family:"Roboto";
+}
+.background-app{
+   background-image: url('https://res.cloudinary.com/dmdr9a99a/image/upload/v1690100668/flight_ysyxbx.avif');
+    background-size: cover;
+    height:100vh;
+  }
+ 
+
+  .airport-heading{
+    color:white;
+    font-size:25px;
+    margin:15px;
+  }

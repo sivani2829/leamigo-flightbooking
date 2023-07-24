@@ -1,0 +1,32 @@
+*{
+    font-family:"Roboto";
+}
+.description{
+    color:white;
+    font-size:20px;
+}
+.heading{
+    color:white;
+    font-size:25px;
+}
+.flight-container{
+    margin:10px;
+}
+.flight-list-items{
+    list-style: none;
+    color:white;
+    font-size:19px;
+
+}
+.availability{
+    font-size:22px;
+    margin:10px;
+    font-weight:600;
+    color:white;
+}
+
+.icons{
+    margin-top:0px;
+    color:white;
+    /* margin:5px; */
+}
